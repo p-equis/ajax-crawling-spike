@@ -1,6 +1,14 @@
 require 'sinatra'
 
 get '/spike' do
+	get_page params
+end
+
+get '/' do
+	get_page params
+end
+
+def get_page(params) 
 ajax = <<SPIKE
 <html>
 <head>
