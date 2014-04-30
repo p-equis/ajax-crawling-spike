@@ -8,6 +8,10 @@ get '/' do
 	get_page params
 end
 
+get '/another' do
+	get_page params
+end
+
 def get_page(params) 
 ajax = <<SPIKE
 <html>

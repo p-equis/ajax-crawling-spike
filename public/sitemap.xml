@@ -3,4 +3,7 @@
   <url> 
     <loc>http://ajax-crawling-spike.herokuapp.com/spike</loc>
   </url>
+  <url> 
+    <loc>http://ajax-crawling-spike.herokuapp.com/another</loc>
+  </url>
 </urlset>
